@@ -6,6 +6,17 @@
             ".write":"auth.uid == $uid"
          }
       },
-      ".write":"auth != null"
+      "messages": {
+          ".read" : "auth != null",
+          "$messageId" : {
+              ".write" : "auth != null",
+              "content": {
+                ".validate": "newData.val().length > 6"
+              },
+              "userId" : {
+                  ".validate": "newData.val() == auth.uid"
+              }
+          }
+      }
    }
 }
