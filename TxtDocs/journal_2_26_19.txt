@@ -6,3 +6,41 @@ superceed the Firebase realtime database structure, but even though this is bein
 even directly from the Firebase console, the realtime database functionality is no where
 near being phased out. It's more likely I've misinterpreted the point of these products
 and they solve slightly different customer needs. 
+
+Reviewing article at https://blog.angular-university.io/angular-2-firebase/
+
+And here: https://devdactic.com/ionic-4-firebase-angularfire/
+
+and https://firebase.google.com/docs/database/rtdb-vs-firestore
+
+and https://firebase.google.com/docs/firestore/quickstart
+
+and 
+
+    wtf!!!! Do I use firebase or firestore???????????? ARGGGGHHHHH!!!!!!!!!!! And do I use 
+    just http rest api or an angular package? If a package what package? Firebase & Firestore
+    both have a Web sdk, but angular is in typescript so how the heck does that work????
+
+Possibly a good article here https://medium.com/@coderonfleek/firebase-firestore-and-angular-todo-list-application-d0fe760f6bca
+
+Created new project: ToDoDemoAngularfirestore
+
+<script src="https://www.gstatic.com/firebasejs/5.8.4/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyAYCpMk5pAkY7kn9iK85xBEvBuwEWFGOwQ",
+    authDomain: "tododemoangularfirestore.firebaseapp.com",
+    databaseURL: "https://tododemoangularfirestore.firebaseio.com",
+    projectId: "tododemoangularfirestore",
+    storageBucket: "",
+    messagingSenderId: "599332338681"
+  };
+  firebase.initializeApp(config);
+</script>
+
+Left off with cloning the project needing to: https://github.com/coderonfleek/angular-firebase
+
+Directions for angular specifics on installing firebase/firestore npm libs:
+https://github.com/angular/angularfire2/blob/master/docs/install-and-setup.md
+
