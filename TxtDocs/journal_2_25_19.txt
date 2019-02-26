@@ -1,0 +1,17 @@
+2/25/19
+
+Review a number of videos about Firebase Realtime database, mostly those from
+Academind where he's talking with Abe Haskins. Also reviewed some videos 
+by the Firebase channel itself on youtube.
+
+I also had the realization that, once more, hilariously so, I've been going about pursuing
+Firebase the wrong way. I was working on implementing it or figuring out an implementation that was 
+strictly REST api based, hence, the work with PostMan. This effort was definitely not wasted as it 
+yielded a lot of information about how the documents work, how the storage can be organized, etc, etc.
+
+The takeway here is that I'm realizing that it's the intent of Google and the Firebase 
+devs for the developer to use the pertinent Firebase sdk for their platform. In my case,
+I need to transition focus to the Angular Firebase sdk and not so much the rest api.
+
+Another big takeaway from this API is that with the sdk, if you get a "collection" from the 
+realtime database, it will return that document and EVERYTHING nested beneath that document. 

@@ -1,0 +1,8 @@
+2/26/19
+
+Reviewing more videos about Firebase. Seeing more and more info
+about Cloud Firestore, which seems to be the next Firebase product that will likely
+superceed the Firebase realtime database structure, but even though this is being pushed
+even directly from the Firebase console, the realtime database functionality is no where
+near being phased out. It's more likely I've misinterpreted the point of these products
+and they solve slightly different customer needs. 
