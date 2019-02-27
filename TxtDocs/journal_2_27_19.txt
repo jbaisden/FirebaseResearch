@@ -35,6 +35,10 @@ databaseURL, etc taken from the your app console.
 3) run: npm install firebase @angular/fire --save
 4) Follow steps in readme beginning with step 5
 
+If you scroll to the bottom of the read me, there's a link for "Documents in Angular Firestore"...it appears
+an entire tutorial is built right into the github readme docs. Note to self...check the dam github readme
+first!
+
 
 
 
