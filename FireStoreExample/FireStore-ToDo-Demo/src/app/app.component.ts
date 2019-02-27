@@ -2,7 +2,7 @@
 //Project based off of demo app at https://medium.com/@coderonfleek/firebase-firestore-and-angular-todo-list-application-d0fe760f6bca
 //The Firestore setup for angular is taken from https://github.com/angular/angularfire2
 
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { AngularFirestore, DocumentChangeAction, AngularFirestoreCollection, AngularFirestoreDocument } from '@angular/fire/firestore';
 // import { Observable } from 'rxjs';
 import { config } from "./app.config";
@@ -18,14 +18,25 @@ import { database } from 'firebase';
   styleUrls: ['./app.component.css']
 })
 
-export class AppComponent {
+export class AppComponent implements OnInit {
   // tasks: Observable<Task[]>;
   tasks: Observable<any[]>;
   myTask: string;
   editMode: boolean = false;
   taskToEdit: any = {};
+
   constructor(private db: AngularFirestore, private taskService: TaskService) {
 
+
+    // this.tasks = db.collection<Task>('tasks');
+    // this.items = db.collection('tasks').snapshotChanges();
+    // this.items.forEach((next: DocumentChangeAction[]) => {
+    //   console.log(next.payload.doc.data());
+    // })
+  }
+
+  ngOnInit() {
+    // this.tasks = this.db.collection(config.collection_endpoint).valueChanges();
     this.tasks = this.db
       .collection(config.collection_endpoint)
       .snapshotChanges()
@@ -43,15 +54,6 @@ export class AppComponent {
               return { id, ...data };
             });
           }));
-    // this.tasks = db.collection<Task>('tasks');
-    // this.items = db.collection('tasks').snapshotChanges();
-    // this.items.forEach((next: DocumentChangeAction[]) => {
-    //   console.log(next.payload.doc.data());
-    // })
-  }
-
-  ngOnInit() {
-    this.tasks = this.db.collection(config.collection_endpoint).valueChanges();
   }
 
   edit(task) {

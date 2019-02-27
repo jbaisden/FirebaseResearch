@@ -1,10 +1,3 @@
-<table>
-  <tr *ngFor="let task of tasks | async; let i=index" [attr.data-index]="i">
-    <td>{{i + 1}}</td>
-    <td>{{task.description}}</td>
-  </tr>
-</table>
-
 <form #f="ngForm">
   <div class="form-group">
     <input [(ngModel)]="myTask" name="myTask" type="text" class="form-control" placeholder="Enter Task" required>
@@ -17,17 +10,21 @@
       Save Task
     </button>
   </div>
-</form>
 
-<table>
-  <tr>
-    <td>
-      <button class="btn btn-success" (click)="edit(task)">
-        <i class="fa fa-edit"></i>
-      </button>
-      <button class="btn btn-danger" (click)="deleteTask(task)">
-        <i class="fa fa-remove"></i>
-      </button>
-    </td>
-  </tr>
-</table>
+
+  <table>
+    <tr *ngFor="let task of tasks | async; let i=index" [attr.data-index]="i">
+      <td>{{i + 1}}</td>
+      <td>{{task.description}}</td>
+      <td>
+        <button class="btn btn-success" (click)="edit(task)">
+          <i class="fa fa-edit"></i>
+        </button>
+        <button class="btn btn-danger" (click)="deleteTask(task)">
+          <i class="fa fa-remove"></i>
+        </button>
+      </td>
+    </tr>
+  </table>
+
+</form>
