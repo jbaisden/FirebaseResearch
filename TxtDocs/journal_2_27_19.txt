@@ -1,0 +1,41 @@
+Noted https://angularfirebase.com/lessons/the-ultimate-beginners-guide-to-firebase/#3-Cloud-Firestore-Database
+to go through.
+
+Also: https://angularfirebase.com/tag/firestore/
+
+I figured this is a good point to summarize my work and what issues I'm facing.
+
+Goal: Get basic CRUD operations working against a simple FireStore database within an angular project.
+
+Issue: The Firestore web sdk is javascript based. I'm trying to find some example that illustrates
+how to use it within an Angular project. I've tried a few things with the REST API and they
+seem to work alright, but I'm kind of shocked that there doesn't seem to be a native fully supported
+Google produced library for working with Firestore within Angular. 
+
+I've found AngularFire2, but I'm not sure if this is "google backed" or produced by a third party
+that may tire of developing the library. I've also tried "npm install @angular/fire firebase --save" as
+part of a demo project, but that doesn't seem to be working (the demo app that is).
+
+I found the slack community for firebase here: https://firebase-community.slack.com/messages/C7CQWAH7F/
+and asked for help there.
+
+FOUND IT!!!!
+
+The basic demo app was hiding right in front of me. It's right in the bloody 
+AngulreFire2's repo readme on github. Furthermore, when actually reading over the 
+repo it clearly says "The official Angular library for Firebase."
+
+The link to it is here: https://github.com/angular/angularfire2/blob/master/docs/install-and-setup.md
+
+Steps:
+
+1) Create basic angular project 
+2) Edit the src/environments/environment.ts file with Fire Store info like apiKey, authDomain, 
+databaseURL, etc taken from the your app console.
+3) run: npm install firebase @angular/fire --save
+4) Follow steps in readme beginning with step 5
+
+
+
+
+
