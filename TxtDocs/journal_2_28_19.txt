@@ -38,3 +38,13 @@ Reviewed article https://proandroiddev.com/working-with-firestore-building-a-sim
 
 Research cloud functions to calculate next appt for the client list of a user.
 
+Once again noting: https://angularfirebase.com/pro/ and 
+https://projects.angularfirebase.com/p/ionic-4-firebase-master-course which may 
+be the perfect courses for what I'm looking to do.
+
+See @Fireship on youtube.
+
+Review "Model Relational data in firestore nosql"
+(https://www.youtube.com/watch?v=jm66TSlVtcc&t=0s&list=PL0vfts4VzfNiPCzuRPXFZS1Hnw_RvVEXR&index=2)
+
+Oh, wow...Firestore auth rules allow for the declaration and use of functions
