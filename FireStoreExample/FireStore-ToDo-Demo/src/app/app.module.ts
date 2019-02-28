@@ -7,6 +7,7 @@ import { AppComponent } from './app.component';
 import { AngularFirestoreModule, AngularFirestore } from '@angular/fire/firestore';
 import { AngularFireModule } from '@angular/fire';
 import { environment } from 'src/environments/environment';
+import { FirestoreSettingsToken } from '@angular/fire/firestore';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,7 @@ import { environment } from 'src/environments/environment';
     AngularFireModule.initializeApp(environment.firebase, 'my firestore to do demo'),
     AngularFirestoreModule, // imports firebase/firestore, only needed for database features
   ],
-  providers: [],
+  providers: [{ provide: FirestoreSettingsToken, useValue: {} }],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

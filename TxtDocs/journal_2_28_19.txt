@@ -1,0 +1,40 @@
+
+Reviewing https://firebase.google.com/docs/firestore/manage-data/structure-data
+
+Watched videos on maps and how to structure your data 
+
+Because firestore charges for read/writes, the client list and other data on the main scroll screen for 
+my app may need to be added to the user document itself. That's premature optimization at this 
+time, however.
+
+So after a plethora of googling, searching, hair pulling, screaming, head banging,
+face palming, and other things that happen when trying to look for things, solve problems,
+manage confusion, etc, etc, I've landed upon a few facts that ought to have been obvious
+to me from the beginning:
+
+#1) Product documentation is king. Go through it first. That said, parsel your time out,
+as products normally have several resources for support. Which brings us to:
+
+#2) If a product is public and has a GitHub repo, CHECK THE F*KING readme files. Consider 
+these as grade A product documentation. AngularFire has a whole bloody tutorial built in that 
+links from one readme to another, etc.
+
+#3) YOUTUBE!!!!!! If you see a video embedded in documentation, hit it up on youtube. From 
+here, note the channel of the video and see what other videos are in the same playlist. after
+that, expand up. The video may be a child series in a larger product series of videos.
+
+Overviews, sample code, high and low level explainations are all likely covered by the above 3
+points.
+
+#4) Google tutorials. This is a crapshot and possibly a waste of time initially. If you're new
+to a technology, you have no idea what makes a good article different than a bad article as 
+far as the technical acumen. Additionally, the date of a tutorial matters. A tutorial from 
+2017 will probably not be 100% reproduceable without tweaks that you will have to figure out
+on your own, most likely.
+
+I made the above into a blog post and began another blog post as well.
+
+Reviewed article https://proandroiddev.com/working-with-firestore-building-a-simple-database-model-79a5ce2692cb
+
+Research cloud functions to calculate next appt for the client list of a user.
+

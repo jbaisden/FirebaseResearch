@@ -6,16 +6,24 @@
     <i class="fa fa-spinner fa-spin"></i>
   </p>
   <div class="form-group">
-    <button class="btn btn-primary" [disabled]="!f.valid" (click)="saveTask()">
+    <button type="button" class="btn btn-primary" [disabled]="!f.valid" (click)="saveTask()">
       Save Task
     </button>
+    <button type="button" class="btn btn-primary" (click)="printClient()">
+      Print Client
+    </button>
+    <button type="button" class="btn btn-primary" (click)="printUser()">
+      Print User
+    </button>
   </div>
+
 
 
   <table>
     <tr *ngFor="let task of tasks | async; let i=index" [attr.data-index]="i">
       <td>{{i + 1}}</td>
       <td>{{task.description}}</td>
+      <td>{{task.docId}}</td>
       <td>
         <button class="btn btn-success" (click)="edit(task)">
           <i class="fa fa-edit">Edit</i>
