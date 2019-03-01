@@ -26,9 +26,9 @@ export class AppComponent implements OnInit {
   taskToEdit: Task;
 
   constructor(private db: AngularFirestore, private taskService: TaskService) {
-    this.taskService.setCollection('/users/SSoas1zyj4kKckq2YODh/tasks');
+    // this.taskService.setCollection('/users/SSoas1zyj4kKckq2YODh/tasks');
 
-    // this.tasks = db.collection<Task>('tasks');
+    // this.tasks = db.collection<Task>('tasks').snapshotChanges();
     // this.items = db.collection('tasks').snapshotChanges();
     // this.items.forEach((next: DocumentChangeAction[]) => {
     //   console.log(next.payload.doc.data());

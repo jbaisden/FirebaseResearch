@@ -1,0 +1,34 @@
+npm install -g ionic
+ionic start ionFire blank --type=angular
+ionic cordova platform add android
+//ionic cordova add ios
+npm i -g cordova
+
+
+*optional links app to ionic appflow git remote*
+//ionic link --pro-id ab95fc73
+
+update app id in config.xml in reverse url format
+
+created firebase project for android & ios with app id 
+of com.jb.ionFire and downloaded the googleservice
+files generated to the root of the project.
+
+run "ionic cordova plugin add cordova-plugin-firebase"
+    "npm install --save @ionic-native/firebase"
+
+run "npm install firebase @angular/fire --save"    
+
+download android studio along with its commandline 
+tools
+
+https://capacitor.ionicframework.com/
+
+capacitor is Ionic's envisioning of cordova, but it's still in beta
+at the moment. This looks interesting but is a rabit trail for 
+another time.
+
+npm i @ionic/storage
+
+Ionic Storage is a local state storage ionic can use to persist
+app state.
