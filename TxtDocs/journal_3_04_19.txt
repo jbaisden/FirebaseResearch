@@ -1,0 +1,10 @@
+
+Created Quora question: 
+
+https://www.quora.com/anonymous/ff7c27c9b91245c39648ae88a7fc80e8
+
+Followed several more videos in the Ionic 4/Angular/Firestore course.
+
+Considering https://jekyllrb.com/docs/ to manage my blog. This would let me create 
+posts using markdown, publish to github for free, and manage posts via github 
+

@@ -1,0 +1,12 @@
+
+See theme/variables.scss for variables that can be used as part of the theme
+
+Use variables in scss via the "var(<variable name)" keyword, like:
+
+.step-two {
+    background: var(--ion-color-success);
+    color: var(--ion-color-success-contrast);
+}
+
+In Angular, it is conventional to suffix observable variables with '$'
+
