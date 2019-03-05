@@ -8,3 +8,9 @@ Followed several more videos in the Ionic 4/Angular/Firestore course.
 Considering https://jekyllrb.com/docs/ to manage my blog. This would let me create 
 posts using markdown, publish to github for free, and manage posts via github 
 
+Did quite a bit of work with Jekyll in the evening. Got everything set up locally. Got 
+the github repo 'watchmelevelup' created (https://jbaisden.github.io/watchmelevelup/). 
+Pushed the content to it, but it's not serving correctly. I'll continue to 
+research the issue.
+
+
