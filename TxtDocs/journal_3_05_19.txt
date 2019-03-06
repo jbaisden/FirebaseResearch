@@ -1,0 +1,8 @@
+
+Continued troubleshooting issues with Jekyll at https://jbaisden.github.io/watchmelevelup/.
+
+Found sites that may help:
+
+    https://jekyllrb.com/docs/github-pages/
+    http://jmcglone.com/guides/github-pages/
+
