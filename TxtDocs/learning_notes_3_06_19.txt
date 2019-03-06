@@ -1,0 +1,10 @@
+
+Ran 
+
+ionic cordova plugin add cordova-plugin-googleplus --variable REVERSED_CLIENT_ID=com.googleusercontent.apps.579847091834-jm53cthtj9k3fs567p8vtv1fqsprqdb9 --variable WEB_APPLICATION_CLIENT_ID=579847091834-6nq8g3i2h4bqtt4v7dvke81vko2qfhou.apps.googleusercontent.com
+npm install --save @ionic-native/google-plus
+
+The REVERSED_CLIENT_ID is in the GoogleService-Info.plist file.
+
+The WEB_APPLICATION_CLIENT_ID can be foudn at: https://console.developers.google.com/apis/credentials?project=ionfirejb
+
