@@ -1,0 +1,14 @@
+Continued troubleshooting why my github pages jekyll repo isn't serving correctly.
+
+Read over:
+    https://github.com/github/pages-gem (update gem file per readme and run bundle install)
+    https://github.com/jekyll/jekyll/wiki/Sites (check the source link to see how others
+    implemented Jekyll in their repo)
+    http://jmcglone.com/guides/github-pages/ Read over this again, but can't really go
+    through it without blowing up my repo again as an account can only have 1 github pages site 
+    https://programminghistorian.org/en/lessons/building-static-sites-with-jekyll-github-pages#mini-cheatsheet-
+
+I'll review these links tonight:
+    https://github.com/codingwithcookie/codingwithcookie.github.io
+    https://codingwithcookie.com/
+
