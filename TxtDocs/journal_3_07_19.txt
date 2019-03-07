@@ -1,0 +1,9 @@
+
+Got domain redirect working on github. Github Pages repo at jbaisden.github.io will now load at 
+watchmelevelup.com.
+
+Continued Ionic 4 Firestore course. 
+
+To do: Watch Firestore & NoSql Data Modeling vids by author.
+
+Got to 73% progress in course videos. (Up from 57%)
