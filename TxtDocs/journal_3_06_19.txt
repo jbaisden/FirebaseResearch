@@ -12,3 +12,8 @@ I'll review these links tonight:
     https://github.com/codingwithcookie/codingwithcookie.github.io
     https://codingwithcookie.com/
 
+GOT MY PAGE WORKING!!!
+
+Apparently I just had to name the github repo in the format of 
+<username>.github.io for Github Pages to work.
+
