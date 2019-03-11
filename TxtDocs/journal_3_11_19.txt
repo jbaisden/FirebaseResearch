@@ -1,0 +1,12 @@
+Didn't do any learning over the weekend. Had lots of other life things going on.
+
+Today, I created a few blog drafts, read several articles, mostly finished up the Ionic 4 course. 
+I skimmed the section on firestore cloud messages as that's not yet relevant to my goals.
+
+I plan to dig into Jekyll a bit more so I can add a few static pages to track learning and add reviews 
+for the courses/tutorials I've gone through. I did update the about page on the blog to make things 
+a bit more clear I'm not a noob at this, but also orient the blog as a Microsoft dev attempting to learn
+new technologies.
+
+BankPlus introduced LinkedIn learning for everyone, so I hopped on that band wagon.
+
