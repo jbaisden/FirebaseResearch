@@ -1,6 +1,6 @@
 Didn't do any learning over the weekend. Had lots of other life things going on.
 
-Today, I created a few blog drafts, read several articles, mostly finished up the Ionic 4 course. 
+Today, I created a few blog drafts, read several articles, mostly finished up the Ionic 4 course (90%). 
 I skimmed the section on firestore cloud messages as that's not yet relevant to my goals.
 
 I plan to dig into Jekyll a bit more so I can add a few static pages to track learning and add reviews 

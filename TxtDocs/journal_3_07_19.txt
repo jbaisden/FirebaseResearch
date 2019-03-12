@@ -1,6 +1,6 @@
 
 Got domain redirect working on github. Github Pages repo at jbaisden.github.io will now load at 
-watchmelevelup.com.
+watchmelevelup.com!!!
 
 Continued Ionic 4 Firestore course. 
 

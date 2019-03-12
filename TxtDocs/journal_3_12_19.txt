@@ -1,0 +1,20 @@
+
+Went through Jeff Delaney's "The Angular Firebase Survival Guide" that came with the
+angularfirebase.com/fireship.io pro membership. This is pretty much a cookbook of how 
+to do various things with the angular and firebase. It's a great "just the facts" briefing.
+
+At this point I think I have enough material to perform CRUD ops against 
+cloud firestore even if only copy/pasting the Ionic 4/Firebase and this books examples.
+
+I plan to start a new project for "The App", but it will be straight vanilla angular/firebase
+without Ionic involved. I will migrate to that or NativeScript when I get ready to deploy
+to mobile. For now, however, I think it may be best to stick with Bootstrap 4 and Angular as 
+originally intended.
+
+I think this decision will yield a better end product with a better foundation to begin 
+from when I do decide to implement for mobile. Ideally, the I hope the majority of the 
+source will be reuseable...but...amazingly...that's not my focus.
+
+My focus is on getting something out the door. Web first.
+
+Everything else second.
