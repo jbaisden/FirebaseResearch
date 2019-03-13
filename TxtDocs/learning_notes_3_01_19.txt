@@ -4,7 +4,6 @@ ionic cordova platform add android
 //ionic cordova add ios
 npm i -g cordova
 
-
 *optional links app to ionic appflow git remote*
 //ionic link --pro-id ab95fc73
 

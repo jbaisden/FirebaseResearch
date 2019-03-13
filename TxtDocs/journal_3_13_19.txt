@@ -1,0 +1,20 @@
+
+I confess, I'm getting frustrated. I sat down to begin a project to test the firestore
+learning I've gained. I ran into error and after error. Just stupid things. rxjs errors,
+then some kind of strange error when duplicating code from jeff delaneys ionic course verbatim,
+but what worked in his project didn't work in my tests.
+
+I've started a new project from scratch, firestoretests. I'm not getting the errors I was, but now 
+the firestore method calls appear to just not work at all.
+
+Found: https://github.com/firebase/quickstart-js
+Also: https://github.com/firebase/quickstart-js/blob/master/firestore/README.md
+
+
+**side note**
+Had an app idea for a macro budget. It'd show all 12 months of the years on the lower half of the screen
+and on the top half you can add expenses for big events like birthdays, taxes, christmas, weddings,
+etc. It will then do a basic breakdown of the sum and show you how much you need to save
+to cover everything.
+
+Keep the math simple at first: savings needed = sum(costs) / 12

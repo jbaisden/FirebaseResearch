@@ -5,3 +5,5 @@ Sadly learning that the code in the video is often missing things
 or is different from code in the github repo in some manner. I've been forced
 to just copy and paste the github repo code as needed, but I usually
 attempt to type it out first.
+
+Began reading: https://itnext.io/part-1-building-a-progressive-web-application-pwa-with-angular-material-and-aws-amplify-5c741c957259
