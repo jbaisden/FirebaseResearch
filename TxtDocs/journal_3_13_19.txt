@@ -10,6 +10,12 @@ the firestore method calls appear to just not work at all.
 Found: https://github.com/firebase/quickstart-js
 Also: https://github.com/firebase/quickstart-js/blob/master/firestore/README.md
 
+And back to angular/firestore crud tutorial searches: 
+
+https://www.techiediaries.com/angular-firestore-tutorial/
+https://www.djamware.com/post/5bbf534580aca7466989441c/angular-6-firebase-tutorial-firestore-crud-web-application#ch7
+https://github.com/FaztWeb/angular-firestore-example/blob/master/src/app/services/task.service.ts
+
 
 **side note**
 Had an app idea for a macro budget. It'd show all 12 months of the years on the lower half of the screen
