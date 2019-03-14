@@ -26,3 +26,11 @@ Add and Read from Firestore is working.
 Google auth working.
 
 Update and Delete still to be done. 
+
+To try to clarify my mental block on observables, promises, map, rsjx, etc, I began
+the following: 
+
+https://www.youtube.com/watch?v=PhggNGsSQyg
+https://www.youtube.com/watch?v=Tux1nhBPl_w
+https://youtu.be/PhggNGsSQyg
+Coursetro.com
