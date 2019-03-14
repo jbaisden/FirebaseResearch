@@ -1,0 +1,28 @@
+
+Found several immenseley detailed tutorials. Adding links here for safe keeping.
+
+https://angular-templates.io/tutorials/about/angular-crud-with-firebase
+https://ionicthemes.com/tutorials/tag/ionic-4
+https://ionicthemes.com/tutorials/about/building-a-ionic-firebase-app-step-by-step
+
+Also have adding docs to a firestore collection working, albeit hardcoded. Still not 
+getting the whole pipe/map/observable/subscribe thing in practice. I get the idea of
+what's trying to be done, but not sure how to really own it and wield it as my own. That's
+redundant.
+
+Finally got things working (again) in my FirestoreTests project. I've got examples of 
+using a subscribeable against an Array<Task> and another one of using Observable<Araay<Task>>,
+which can be unwrapped via the | async pipe in the html. Both work great. And both are strongly
+typed...code that I wrote basic on the ton of stuff I've looked at. Some things are Finally
+starting to fall into place. Man. And to think just yesterday, I was ready to go put a hole through 
+a wall.
+
+The tutorials at https://angular-templates.io/tutorials/ seem to be pretty spot on.
+Got Google login/logout working. 
+
+Summary:
+
+Add and Read from Firestore is working. 
+Google auth working.
+
+Update and Delete still to be done. 
