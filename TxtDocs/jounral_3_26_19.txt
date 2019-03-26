@@ -1,0 +1,28 @@
+So...it's been a while since I journaled. I got sick. Then I lost momentum in learning. Things 
+are a bit stale in my brain atm. I'm already fighting anxiety that I'm reverting back to my
+old habit of running away/burying my head in a game when the learning gets hard. I know
+in my head that I have to push through this.
+
+It's hard, though. There's so much to learn. So many dozens of practices I either should be 
+using or feel I ought to know. So much time wasted and so much time hating myself for having
+done so. And all of this leading to me being my own worst enemy self-esteem wise.
+
+Okay. So I said it. It's out there. Now time to try and pick up the pieces and keep moving forward.
+
+Notes: 
+
+Tree Shakeable library means it's broken up into parts, like Rxjs, so you don't have to include all 
+of it and can only include the bits you actually use.
+
+In an async function, use the await keyword only once unless a later part of Code
+depends on an awaited value from an earlier part of the async function 
+
+See: Jake ARchibold Event Loop
+See: Demos with Angular (Steven ????)
+
+Watched:
+
+https://www.youtube.com/watch?v=ewcoEYS85Co  Rxjs Top Ten - Code this, not that
+https://www.youtube.com/watch?v=vn3tm0quoqE&feature=youtu.be The Async Await Episode I Promised
+https://www.youtube.com/watch?v=kpcjBD1XDwU Announcing Flutter 1.0 (Flutter Live, Keynote Part 1)
+https://www.youtube.com/watch?v=cCOL7MC4Pl0 Jake Archibald: In The Loop - JSConf.Asia 2018
