@@ -1,0 +1,14 @@
+Asked for code review on Angular Firebase slack
+Continued tinkering with Angular To Do app
+Reviewed and began following demo for app at
+    https://itnext.io/how-to-crud-in-angular-firebase-firestore-456353d7c62
+Reviewed https://www.youtube.com/watch?v=Dk6sphzmKO8 "Angular in 2019 & Beyond"
+
+Observables != Promises  ... but the async pipe in Angular can unwrap an Observables
+Yet ... async / await pertain to Promises ... ???
+
+What's the difference between Observable, a Promise, and a subject (rxjs)?
+
+Subjects can subscribe to things...and be subscribed to themselves.
+
+Read https://medium.com/@balramchavan/using-async-await-feature-in-angular-587dd56fdc77
