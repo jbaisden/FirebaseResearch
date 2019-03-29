@@ -1,0 +1,13 @@
+
+I began implementing the Learning Journal project I thought up. I got crud working
+for 2 different services which use 6 components altogether. Even wired up my first
+event emitter with the service so one component can notify another for edit.
+
+I'm pretty proud of the work I did today. My focus was a bit scattered so all of 
+the work was over about a 2 hour period.
+
+There's still plenty more to implement even aside from styling, which, once again,
+I'm saving for later. I might go back on this decision though. I actually have 
+a pretty good idea of the visuals I want for this project. Implementing those early
+and seeing it all come together piece by piece may provide an accomplishment feel
+that yields a more self-sustaining interest in the project.

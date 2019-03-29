@@ -1,0 +1,18 @@
+
+Great resource on design rules for modals (hint: avoid them): https://modalzmodalzmodalz.com/#content
+
+Made the following list of choices for next step to take in my 
+learning (in no particular order):
+
+* Material design
+* Bootstrap 4
+* Strongly Typing the Coffee Shop Demo
+* App with multiple forms and multiple firestore collections
+* App focusing on getting Google Auth / Auth Guard / authentication down
+* Enhance Blog with someway to have an activity tracker...i.e. sort of 
+move these journals into the blog, but in a way that's easy to create
+list of videos watched, articles read, and notes taken.
+    * Make an angular app that implements the above point and provides
+    a variety of ways to view/filter the information
+
+    
