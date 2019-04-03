@@ -1,0 +1,12 @@
+
+Note: https://www.concretepage.com/questions/634 as a fairly good resource. This
+link explains the difference between map and switchMap. Use switchMap in conjunction
+with debounceTime(ms). 
+
+Good resource for succinct examples and explainations for 
+RxJS operators. Might be dated in places, but is organized well.
+"https://www.concretepage.com/angular/"
+
+"The scenarios to use switchMap are search functionality, accessing URL parameter etc."
+
+Also added a Goals drop down to the Learning-Entry component in Learning Journal app.
