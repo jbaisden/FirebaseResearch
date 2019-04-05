@@ -1,0 +1,13 @@
+
+Worked on LearningJournal project 
+
+Still trying to get the goal that applies to a learn note returned as part of the 
+LearningEntry object. I did figure out how to get an individual document
+from firestore, but it's still based on observables.
+
+Created a debug component to test things. In this component, I was able to retrieve
+a single goal document via hard coding the id for retrieval.
+
+I decided at day's end to change the system structure. Since every Learning Entry 
+must be associated with a Goal, LearningEntries will become a child collection of 
+Goal collection documents.
