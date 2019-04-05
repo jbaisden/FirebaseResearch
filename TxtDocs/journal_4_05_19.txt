@@ -1,0 +1,12 @@
+Worked on LearningJournal project 
+
+Began adjusting project to make LearningEntries a child of Goals\goalDoc. Found
+that the level of nesting to get the Goal & LearningEntry object to the create/edit 
+component is nuts.
+
+Changing focus to get data where it needs to go via routing...which probably
+should be what I did in the first place. Live and learn. And I thought I was 
+so clever with that event emitter in the LearningEntry service...
+
+Got some routing completed. Goals may be edited.
+
