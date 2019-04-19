@@ -1,0 +1,23 @@
+
+This entry may be off by a day or so, but I suppose it's getting the details written 
+out that really matters.
+
+So, goals can be edited. New notes can be created for specific goals and are 
+done so as a child collection. I've been thinking about what the url
+scheme should be and think i'm going with:
+
+/goals - to list goals and the associated goal notes 
+/goals/:goalid  - to edit/create goals
+/goals/:goalid/learningEntries/:learningEntryId - to create/edit notes
+
+I've got some wonky routing going on so despite my lists being 
+short and my collections brief, there is notable lag on loading these 
+components. I'm not really sure why exactly....but my guess is 
+I'm destroying and recreating components on every url navigation instead of 
+staying on a main component of some kind.
+
+Furthermore, if I'm honest with myself, I could do this whole thing with just 
+Learning Entries and Tags to represent goals because sometimes a single aspect 
+of learning can work on more than one goal. Still, what's the fun in that? 
+
+Let's over-engineer the heck out of this sucker!

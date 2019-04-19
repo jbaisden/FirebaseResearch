@@ -1,6 +1,4 @@
 
-Pay day!
-
 Signed up to https://angularfirebase.com/pro/ and began 
 https://projects.angularfirebase.com/p/ionic-4-firebase-master-course .
 
