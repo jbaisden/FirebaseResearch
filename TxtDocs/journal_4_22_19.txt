@@ -1,0 +1,38 @@
+
+Today I created user stories for the Learning Journal
+application I'm creating to help me better understand how I want
+it to function.
+
+User can save journal entries
+User can login via email and password
+User can tag entries with tags
+User can create tags
+User can delete tags
+User can register account
+User can search entries by tag
+User can search entries by text 
+User can edit entries
+User can delete entries
+User can create goals
+User can create Profile
+User can provide an effort rating from 1 to 100 for entries
+User can view stats page detailing what they've done
+User can filter stats page via date
+User can view resources page that shows any resources linked from their 
+learning entries
+User can add links to blogs, videos, courses, etc to their Profile
+
+
+I'm seasawing once again on if my data model structure is the smartest choice. I thought
+I wanted every entry tied to a goal and I kind of do, but it seems tagging would
+work just as well. I'm also considering drawing a firm line between the two so the user
+can keep their goals in mind and keep things focused, but not make that mandatory
+for learning notes to be added.
+
+I focused a bit on the routing to try and figure out how to force the user 
+to be logged into the application without adding a route guard for EVERY SINGLE 
+url in the app. I considered making a '' route point to the home component with ALL
+other routes in the application as child routes so I could use canActivateChild
+and have 1 guard apply for all of them. 
+
+Despite today's entry being kind of long, most of the work done was thought work.
