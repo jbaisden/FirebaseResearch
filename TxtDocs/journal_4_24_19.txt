@@ -1,0 +1,30 @@
+
+CSS Resource dump:
+
+Codepip@playcodepip tweeter
+https://cssbattle.dev/
+https://www.smashingmagazine.com/2019/01/how-to-learn-css/
+https://cssgridgarden.com/ (left off on lvl 26 of 28)
+https://mastery.games/p/flexbox-zombies
+https://developers.google.com/web/updates/2016/02/css-variables-why-should-you-care
+http://www.gridcritters.com/
+https://refactoringui.com/book/
+
+Added route guards by making all routes children of the root and 
+provided a guard via canActivateChild. Added auth service, auth, register, login
+components.
+
+Bottom line is functionality has been added so that any user that isn't
+logged can't get to any route except auth/, auth/register, auth/login. This
+makes sure the user signs in before they use the site. These details 
+were blatantly copied from Max's Udemy course code. And I don't feel at all 
+bad about that.
+
+Also worked on cssgrid a good bit. That was kind of a tangent, but it's on the 
+target list of things to learn so that's fine. See resource links at the top
+for more reference.
+
+There's still a lot to do in the app, but I'm taking it one day at a time. I do think
+I'll end up redesigning the firestore collections yet again. This is so I can incorporate
+the user id with the learning notes and goals and for other experiementation.
+
