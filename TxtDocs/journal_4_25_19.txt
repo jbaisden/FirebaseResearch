@@ -1,0 +1,13 @@
+
+css grid (see https://drafts.csswg.org/css-grid/#intro)
+
+grid-template-columns
+grid-template-rows
+grid-column-start
+grid-column-end
+grid-column: start / end;  OR start / span end;
+grid-row: start / end;  OR start / span end;
+grid-area: grid-row-start / grid-column-start / grid-row-end / grid-column-end;
+grid-template: rows / columns
+
+Note to watch later: https://css-tricks.com/video-screencasts/153-getting-started-with-css-grid/
