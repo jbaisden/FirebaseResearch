@@ -1,0 +1,29 @@
+More resources...really good resources
+
+Angular/firebase Portfolio Tutorial
+https://www.techiediaries.com/angular-course/
+
+Super in depth angular training. 
+Note to self: 
+    I need to make more basic things before 
+    taking on yet another training course, I think. It just feels like the concepts 
+    I've come to learn in Angular are only loosely formed in my minds eye. Get the 
+    basics before hitting the advanced stuff, in other words. One thing this training
+    does cover in a good amount of depth is testing. I've not seen any resources 
+    anywhere to date that cover this.
+https://ultimatecourses.com/learn/angular-pro
+
+Resource Roundup for Angular Roadmap 2019
+Note: Apparently I spoke too soon about testing resources. About 3/4 of the way
+down are several resources for testing.
+https://alligator.io/angular/angular-developer-roadmap-for-2019/
+
+
+As for actual work done: more research. I've found out how to cast 
+the firestore Timestamp to a Date, but in the getLearningEntries call, which is
+strongly typed, I'm having issues figuring out where to apply the cast.
+
+I'm also looking at the ckeditor rich text component and wondering if I can 
+get the data in the control without the html. If so, I could just add another property
+to the document - one for formatted data and another for raw text.
+
