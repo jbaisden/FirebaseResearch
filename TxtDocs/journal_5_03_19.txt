@@ -1,0 +1,25 @@
+
+Fighting depression again today. It feels like my brain is full, but not necessarily
+with knowledge. Just full of crap. It's like a corrupted hard drive that can't index its
+contents.
+
+I've reviewed the Angular Heros demo app at https://stackblitz.com/angular/aepvpqmoqaj?file=src%2Fapp%2Fapp.component.html.
+There's so much going on that I haven't got a clue about.
+
+It all feels a bit hopeless...like I'll never really grasp this stuff. I'm wondering if 
+I should just switch back to back-end stuff because that's what I know and I feel so far 
+behind the 8 ball on this front end stuff that, at 38, I wonder if I can ever catch up.
+
+Right now there's lot of confusion, but the main bit is the routing. I just don't 
+get how to work it to my will. I sort of get the intent...but there are some obvious 
+gaps I'm just not getting.
+
+I decided to reterm "Learning Notes" to "Accomplishments" so I can keep the vocabulary
+of the application open-ended and not have it closed off as a note taking app. Maybe
+someone wants to use it with a goal of Clean the House. Then they could add "Cleaned Living Room"
+, "Did 2 loads of laundry", etc, etc as accomlishments.
+
+I really do hope that my transparency in these journal entries will help others to push through.
+It feels like I can never remember where I used to be in my learning without writting it down 
+(figuratively at least). Now that I have, I genuinely hope it'll help me move forward instead 
+of leaving me stuck in the loop of forgetting/remembering without progressing.

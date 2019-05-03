@@ -1,0 +1,28 @@
+Completed several videos on fireship.io's data modeling in firestore course.
+
+Not sure I really understand things better as of yet.
+
+Reviewing Learning Journal to try and get a better idea of what the 
+sites functionality should encompass. I'm putting my todo list here.
+
+Okay, I've thought about this a good bit and think I have a layout for the home page
+that will enforce an architecture to guide how the system will function. Sadly, I
+can't put images in txt documents, but it's on my phone. The details that I've 
+arrived at from this thought process are these:
+
+Learning Notes will be their own collection
+Goals will be their on collection
+Tags will be its own collection
+Goal might possibly have a sub-collection, Goal-Steps
+A collection will be created to allow cross referencing Notes with Goals
+
+The layout itself will make a really good exercise in CSS. It has
+a menu/header/title bar at the top followed by a search bar below it,
+with a section showing Learn Notes on the left and Goals on the right,
+with a tag cloud below that making up the footer.
+
+The plan is to animate it such that when +Note or +Goal is clicked,
+all the space below the header bar is utilized. So for +Note, we'd see
+the Learning notes area grow to the right (hiding the goals) and down (hiding the tags)
+and the Search bar above it would become the Title field where the cursor will then
+be focused.
